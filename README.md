@@ -60,7 +60,7 @@ sudo apt install git -y
 
 ---
 
-## Docker
+## Docker (why i installed docker beacuse for sonarqube will be ran on docker..
 
 Official docs: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
 
