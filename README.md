@@ -52,6 +52,24 @@ source /etc/bash_completion
 ```
 
 **Install latest Git:**
+A PPA (Personal Package Archive) is just one type of software repository. Ubuntu can use several kinds of repositories.
+deb http://...
+deb https://...
+deb file:/...
+deb cdrom:...
+ppa:<owner>/<ppa-name>
+----
+| Repository      | Example                                           |
+| --------------- | ------------------------------------------------- |
+| Ubuntu official | `deb http://archive.ubuntu.com/ubuntu jammy main` |
+| Launchpad PPA   | `ppa:git-core/ppa`                                |
+| Docker          | `https://download.docker.com/linux/ubuntu`        |
+| Microsoft       | `https://packages.microsoft.com`                  |
+| Google          | `https://dl.google.com/linux/chrome/deb`          |
+| Local           | `file:/home/user/repo`                            |
+---
+
+
 ```bash
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update
